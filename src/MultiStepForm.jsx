@@ -123,7 +123,7 @@ const MultiStepForm = () => {
               exit="exit"
               custom={direction}
             >
-              <h3 className="mb-5">Personal Information</h3>
+              <h3 className="mb-3">Personal Information</h3>
               <input id="name" type="text" placeholder="Name" className="form-control mb-3" onChange={handleChange} />
               <input id="fatherName" type="text" placeholder="Father's Name" className="form-control mb-3" onChange={handleChange} />
               <input id="birthday" type="date" className="form-control mb-3" onChange={handleChange} />
